@@ -1,0 +1,207 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.userDetail {
+  /* z-index: 900; */
+  /* position: absolute; 
+  /* float:right; */
+  width: 20vw;
+  height: 15vh;
+  /* background-color: cornsilk; */
+}
+
+
+
+
+
+
+button {
+    background-color: crimson;
+    padding: 20px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+
+
+
+/*estilos */
+
+.divPrincipal {
+  /* z-index: 1000; */
+   position: absolute; 
+  /* float:left; */
+  width: 100%;
+  height: 100%;
+  /* background-color: gainsboro;  */
+}
+
+.divTitulo {
+  position: absolute; 
+  width: 100%;
+  height: 5%;
+  border-style: solid;
+  border-color:black;
+}
+
+/******************************* Estilos para sección Bees *******************************/
+.divBees {
+  /* z-index: 1000; */
+   /* position: relative;  */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   float:left;
+   width: 23%;
+  height: 100%; 
+  border-style: solid;
+  border-color:red;
+}
+
+.divBeeContainer {
+  position: relative;
+  width: 20vw;
+ /*height: 10%; */
+ /* color: white; */
+ margin: 5px;
+ /* background-color: green; */
+ border-style:solid;
+ border-width: thin;
+ border-color:red;
+}
+
+.h1Bees {
+  color: red;    
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 3%;
+  
+}
+
+.beeContainerH3 {
+  color:gray;
+}
+
+.beeContainerP {
+color:black;
+font-size: 12px ;
+}
+
+/*******************************************************************************/
+
+
+/******************************* Estilos para sección Posts *******************************/
+.divPosts {
+  /* z-index: 1000; */
+   /* position: relative;  */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   float:left;
+  width: 23%;
+  height: 100%;
+  border-style: solid;
+  border-color:blue;
+}
+
+.h1Posts {
+  color: blue;    
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+/*******************************************************************************/
+
+/******************************* Estilos para sección Album *******************************/
+.divAlbum {
+  /* z-index: 1000; */
+   /* position: relative;  */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   float:left;
+  width: 23%;
+  height: 100%;
+  border-style: solid;
+  border-color:purple
+}
+
+.h1Album {
+  color: purple;    
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+/*******************************************************************************/
+
+/******************************* Estilos para sección ToDos *******************************/
+.divToDos {
+  /* z-index: 1000; */
+   /* position: relative;  */
+   margin-top: 3%;
+   margin-right: 0.5%;
+   float:left;
+  width: 23%;
+  height: 100%;
+  border-style: solid;
+  border-color:green;
+}
+
+.h1ToDos {
+  color: green;    
+  font-size: 16px;
+  margin-top: 3%;
+  margin-left: 3%;
+  
+}
+/*******************************************************************************/
